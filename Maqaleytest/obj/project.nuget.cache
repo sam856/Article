@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "dgSpecHash": "2BqkIrM/LoHMPzRCJWtNOA2Gk+sI5XE44ZoM4Sm+/xew2N7xWIGADuOFtSfB16iJ1p63Ust4cYSnYqTmDV4Q+A==",
+  "success": true,
+  "projectFilePath": "E:\\C#\\Maqalety\\Maqaleytest\\Maqaleytest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Menna\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.applicationinsights\\2.21.0\\microsoft.applicationinsights.2.21.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.net.test.sdk\\15.0.0\\microsoft.net.test.sdk.15.0.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.0.0\\microsoft.testing.extensions.telemetry.1.0.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\1.0.0\\microsoft.testing.extensions.trxreport.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\1.0.0\\microsoft.testing.extensions.vstestbridge.1.0.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.testing.platform\\1.0.0\\microsoft.testing.platform.1.0.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.testing.platform.msbuild\\1.0.0\\microsoft.testing.platform.msbuild.1.0.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.5.0\\microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\microsoft.testplatform.testhost\\15.0.0\\microsoft.testplatform.testhost.15.0.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\mstest.testadapter\\3.2.0\\mstest.testadapter.3.2.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\mstest.testframework\\3.2.0\\mstest.testframework.3.2.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.diagnostics.tools\\4.0.1\\system.diagnostics.tools.4.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.dynamic.runtime\\4.0.11\\system.dynamic.runtime.4.0.11.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.globalization\\4.0.11\\system.globalization.4.0.11.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.io\\4.1.0\\system.io.4.1.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.reflection\\4.1.0\\system.reflection.4.1.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.reflection.emit\\4.0.1\\system.reflection.emit.4.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.0.1\\system.reflection.emit.ilgeneration.4.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.reflection.emit.lightweight\\4.0.1\\system.reflection.emit.lightweight.4.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.reflection.extensions\\4.0.1\\system.reflection.extensions.4.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.reflection.primitives\\4.0.1\\system.reflection.primitives.4.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.reflection.typeextensions\\4.1.0\\system.reflection.typeextensions.4.1.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.resources.resourcemanager\\4.0.1\\system.resources.resourcemanager.4.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.runtime\\4.1.0\\system.runtime.4.1.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.runtime.extensions\\4.1.0\\system.runtime.extensions.4.1.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.runtime.handles\\4.0.1\\system.runtime.handles.4.0.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.runtime.interopservices\\4.1.0\\system.runtime.interopservices.4.1.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.runtime.serialization.primitives\\4.1.1\\system.runtime.serialization.primitives.4.1.1.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.text.encoding\\4.0.11\\system.text.encoding.4.0.11.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.text.encoding.extensions\\4.0.11\\system.text.encoding.extensions.4.0.11.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.text.regularexpressions\\4.1.0\\system.text.regularexpressions.4.1.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.threading\\4.0.11\\system.threading.4.0.11.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\xunit.extensibility.core\\2.9.2\\xunit.extensibility.core.2.9.2.nupkg.sha512",
+    "C:\\Users\\Menna\\.nuget\\packages\\xunit.extensibility.execution\\2.9.2\\xunit.extensibility.execution.2.9.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Maqaleytest depends on Microsoft.NET.Test.Sdk (>= 3.1.2) but Microsoft.NET.Test.Sdk 3.1.2 was not found. An approximate best match of Microsoft.NET.Test.Sdk 15.0.0 was resolved.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Maqaleytest depends on MSTest.TestAdapter (>= 3.1.2) but MSTest.TestAdapter 3.1.2 was not found. An approximate best match of MSTest.TestAdapter 3.2.0 was resolved.",
+      "libraryId": "MSTest.TestAdapter",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Maqaleytest depends on MSTest.TestFramework (>= 3.1.2) but MSTest.TestFramework 3.1.2 was not found. An approximate best match of MSTest.TestFramework 3.2.0 was resolved.",
+      "libraryId": "MSTest.TestFramework",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

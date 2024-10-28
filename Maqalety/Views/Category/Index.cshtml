@@ -1,0 +1,62 @@
+﻿@model IEnumerable<MaqaletyCore.Category>
+
+@{
+    ViewData["Title"] = "قائمة الاصناف";
+    Layout = "~/Pages/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1 style="font-family:Cairo">الاصناف</h1>
+
+<p>
+    <a class="btn-primary" href="/Category/Create">اضافة صنف جديد</a>
+</p>
+
+<!-- Search Form -->
+<form method="get" asp-action="Search">
+    <input type="search" name="SearchItem" class="search-field" />
+    <input type="submit" value="بحث" class="btn-primary" />
+</form>
+
+
+
+<!-- Table Displaying Categories -->
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    <a href="/Category/Edit/@item.Id">تعديل</a> |
+                    <a href="/Category/Delete/@item.Id">حذف</a>
+                </td>
+            </tr>
+        }
+       
+    </tbody>
+</table>
+
+
+
+<!-- Pagination Controls -->
+<div class="pagination-controls">
+    @if (ViewBag.HasPrevious)
+    {
+        <a class="btn-primary" href="@Url.Action("Index", new { page = ViewBag.Page, isPrevious = true })">الصفحة السابقة</a>
+    }
+
+    @if (ViewBag.HasNext)
+    {
+        <a class="btn-primary" href="@Url.Action("Index", new { page = ViewBag.Page + 1 })">الصفحة التالية</a>
+    }
+</div>

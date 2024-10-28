@@ -1,0 +1,96 @@
+﻿@model IEnumerable<MaqaletyCore.AuthorPost>
+
+@{
+    ViewData["Title"] = "المشاركه";
+    Layout = "~/Pages/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<h1 style="font-family:Cairo">بيانات المشاركات</h1>
+
+<p style="font-family:Cairo">
+    <a asp-action="Create">مشاركه جديده</a>
+</p>
+<form method="get" asp-action="Search">
+    <input type="search" name="SearchItem" class="search-field" />
+    <input type="submit" value="بحث" class="btn-primary" />
+</form>
+
+<table class="table table-striped hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+          
+            <th>
+                @Html.DisplayNameFor(model => model.PostImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostCategory)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AddedTime)
+            </th>
+           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+         
+            <td>
+                <img src="~/img/@item.PostImageUrl" class="rounded-circle" width="50" height="59" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostCategory)
+
+                </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.PostTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AddedTime)
+            </td>
+          
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">تعديل</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">تفاصيل</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">حذف</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+<div class="pagination-controls">
+    @if (ViewBag.HasPrevious )  // Null-coalescing to default to false
+    {
+        <a class="btn-primary" href="@Url.Action("Index", new { page = ViewBag.Page, isPrevious = true })">الصفحة السابقة</a>
+    }
+
+    @if (ViewBag.HasNext )  // Null-coalescing to default to false
+    {
+        <a class="btn-primary" href="@Url.Action("Index", new { page = ViewBag.Page + 1 })">الصفحة التالية</a>
+    }

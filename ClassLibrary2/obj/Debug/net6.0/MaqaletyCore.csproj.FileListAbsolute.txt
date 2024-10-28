@@ -1,0 +1,12 @@
+E:\C#\Maqalety\ClassLibrary2\bin\Debug\net6.0\MaqaletyCore.deps.json
+E:\C#\Maqalety\ClassLibrary2\bin\Debug\net6.0\MaqaletyCore.dll
+E:\C#\Maqalety\ClassLibrary2\bin\Debug\net6.0\MaqaletyCore.pdb
+E:\C#\Maqalety\ClassLibrary2\obj\Debug\net6.0\MaqaletyCore.csproj.AssemblyReference.cache
+E:\C#\Maqalety\ClassLibrary2\obj\Debug\net6.0\MaqaletyCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Maqalety\ClassLibrary2\obj\Debug\net6.0\MaqaletyCore.AssemblyInfoInputs.cache
+E:\C#\Maqalety\ClassLibrary2\obj\Debug\net6.0\MaqaletyCore.AssemblyInfo.cs
+E:\C#\Maqalety\ClassLibrary2\obj\Debug\net6.0\MaqaletyCore.csproj.CoreCompileInputs.cache
+E:\C#\Maqalety\ClassLibrary2\obj\Debug\net6.0\MaqaletyCore.dll
+E:\C#\Maqalety\ClassLibrary2\obj\Debug\net6.0\refint\MaqaletyCore.dll
+E:\C#\Maqalety\ClassLibrary2\obj\Debug\net6.0\MaqaletyCore.pdb
+E:\C#\Maqalety\ClassLibrary2\obj\Debug\net6.0\ref\MaqaletyCore.dll

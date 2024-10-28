@@ -1,0 +1,38 @@
+﻿@page "{id:int}"
+@model Maqalety.Pages.ArticleModel
+
+@{
+}
+
+<section class="bounce animated article-clean">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                <div class="intro text-center">
+                    <h1 class="text-center" style="font-family: 'Cairo', sans-serif; font-size: 2.5rem; color: #333;">@Model.authorPost.PostTitle</h1>
+                    <p class="text-center" style="color: #666;">
+                        <span class="by">by</span>
+                        <a href="#" style="color: #007bff; text-decoration: none;">@Model.authorPost.FullName</a>
+                        <span class="date" style="margin-left: 10px; font-style: italic; color: #888;">@Model.authorPost.AddedTime</span>
+                    </p>
+                    <img class="img-fluid rounded" src="~/img/@Model.authorPost.PostImageUrl" alt="Post image" style="margin-top: 20px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);">
+                </div>
+
+                <!-- Moved the description section below the image -->
+                <div class="text" style="margin-top: 20px;">
+                    <p class="text-end" style="font-family: 'Cairo', sans-serif; font-size: 1.2rem; color: #555; line-height: 1.8;">
+                        @Model.authorPost.PostDescription
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-aos="zoom-in" class="social-icons text-center" style="margin-top: 30px;">
+        <h3 style="font-family: 'Cairo', sans-serif; font-size: 1.3rem; color: #333;">شارك المقالة</h3>
+        <div style="font-size: 1.5rem; color: #666;">
+            <a href="#" style="color: #1da1f2; margin-right: 15px;"><i class="icon ion-social-twitter"></i></a>
+            <a href="#" style="color: #3b5998; margin-right: 15px;"><i class="icon ion-social-facebook"></i></a>
+            <a href="#" style="color: #fffc00; margin-right: 15px;"><i class="icon ion-social-snapchat"></i></a>
+        </div>
+    </div>
+</section>

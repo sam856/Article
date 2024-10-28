@@ -1,0 +1,17 @@
+E:\C#\Maqalety\ClassLibrary3\bin\Release\net7.0\MaqaletyData.deps.json
+E:\C#\Maqalety\ClassLibrary3\bin\Release\net7.0\MaqaletyData.runtimeconfig.json
+E:\C#\Maqalety\ClassLibrary3\bin\Release\net7.0\MaqaletyData.dll
+E:\C#\Maqalety\ClassLibrary3\bin\Release\net7.0\MaqaletyData.pdb
+E:\C#\Maqalety\ClassLibrary3\bin\Release\net7.0\MaqaletyCore.dll
+E:\C#\Maqalety\ClassLibrary3\bin\Release\net7.0\MaqaletyCore.pdb
+E:\C#\Maqalety\ClassLibrary3\obj\Release\net7.0\MaqaletyData.csproj.AssemblyReference.cache
+E:\C#\Maqalety\ClassLibrary3\obj\Release\net7.0\MaqaletyData.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Maqalety\ClassLibrary3\obj\Release\net7.0\MaqaletyData.AssemblyInfoInputs.cache
+E:\C#\Maqalety\ClassLibrary3\obj\Release\net7.0\MaqaletyData.AssemblyInfo.cs
+E:\C#\Maqalety\ClassLibrary3\obj\Release\net7.0\MaqaletyData.csproj.CoreCompileInputs.cache
+E:\C#\Maqalety\ClassLibrary3\obj\Release\net7.0\MaqaletyData.csproj.CopyComplete
+E:\C#\Maqalety\ClassLibrary3\obj\Release\net7.0\MaqaletyData.dll
+E:\C#\Maqalety\ClassLibrary3\obj\Release\net7.0\refint\MaqaletyData.dll
+E:\C#\Maqalety\ClassLibrary3\obj\Release\net7.0\MaqaletyData.pdb
+E:\C#\Maqalety\ClassLibrary3\obj\Release\net7.0\MaqaletyData.genruntimeconfig.cache
+E:\C#\Maqalety\ClassLibrary3\obj\Release\net7.0\ref\MaqaletyData.dll
